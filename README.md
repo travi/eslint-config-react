@@ -1,5 +1,7 @@
 # eslint-config-react
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/travi/eslint-config-react.svg)](https://greenkeeper.io/)
+
 [Shareable config](https://eslint.org/docs/developer-guide/shareable-configs#shareable-configs)
 for [ESLint](https://eslint.org) for [React](https://reactjs.org) components
 
