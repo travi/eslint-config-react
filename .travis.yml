@@ -5,11 +5,11 @@ branches:
   except:
     - /^v\d+\.\d+\.\d+(-(alpha|beta)\.\d+(@(alpha|beta))?)?$/
 before_script:
-  - npm ls >/dev/null
+  - npm ls --production >/dev/null
 deploy:
   provider: script
   skip_cleanup: true
-  script: npx semantic-release
+  script: npx semantic-release@beta
   'on':
     all_branches: true
 env:
