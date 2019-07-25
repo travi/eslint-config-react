@@ -1,0 +1,6 @@
+_extends: .github
+repository:
+  name: eslint-config-react
+  description: Shareable config for ESLint for React components
+  homepage: 'https://npm.im/@travi/eslint-config-react'
+  private: false
