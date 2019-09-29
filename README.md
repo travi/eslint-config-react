@@ -1,7 +1,5 @@
 # eslint-config-react
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/travi/eslint-config-react.svg)](https://greenkeeper.io/)
-
 [Shareable config](https://eslint.org/docs/developer-guide/shareable-configs#shareable-configs)
 for [ESLint](https://eslint.org) for [React](https://reactjs.org) components
 
@@ -27,6 +25,7 @@ $ npm install @travi/eslint-config-react --save-dev
 [![Commitizen friendly][commitizen-badge]][commitizen-link]
 [![semantic-release][semantic-release-badge]][semantic-release-link]
 [![PRs Welcome][PRs-badge]][PRs-link]
+[![Greenkeeper badge](https://badges.greenkeeper.io/travi/eslint-config-react.svg)](https://greenkeeper.io/)
 
 ### Dependencies
 
