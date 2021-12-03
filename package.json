@@ -31,6 +31,6 @@
     "remark-preset-lint-travi": "2.0.8"
   },
   "dependencies": {
-    "@form8ion/eslint-config-react": "1.15.51"
+    "@form8ion/eslint-config-react": "1.15.52"
   }
 }
