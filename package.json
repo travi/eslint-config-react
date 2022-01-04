@@ -18,7 +18,8 @@
     "lint:md": "remark . --frail",
     "lint:js": "eslint . --cache",
     "lint:sensitive": "ban",
-    "lint:peer": "npm ls >/dev/null"
+    "lint:peer": "npm ls >/dev/null",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@travi/babel-preset": "3.0.71",
