@@ -21,6 +21,7 @@
     "lint:peer": "npm ls >/dev/null"
   },
   "devDependencies": {
+    "@travi/babel-preset": "3.0.71",
     "@travi/eslint-config": "1.0.94",
     "ban-sensitive-files": "1.9.16",
     "commitlint-config-travi": "1.4.5",
