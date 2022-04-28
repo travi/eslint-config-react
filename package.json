@@ -25,7 +25,7 @@
     "@travi/babel-preset": "3.0.83",
     "@travi/eslint-config": "2.0.0",
     "ban-sensitive-files": "1.9.18",
-    "commitlint-config-travi": "1.4.10",
+    "commitlint-config-travi": "1.4.11",
     "cz-conventional-changelog": "3.3.0",
     "husky": "7.0.4",
     "npm-run-all": "4.1.5",
