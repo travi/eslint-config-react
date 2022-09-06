@@ -22,7 +22,7 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@travi/babel-preset": "3.0.92",
+    "@travi/babel-preset": "3.0.93",
     "@travi/eslint-config": "3.0.7",
     "ban-sensitive-files": "1.9.18",
     "commitlint-config-travi": "1.4.18",
