@@ -3,23 +3,28 @@
   "description": "Shareable config for ESLint for React components",
   "license": "MIT",
   "version": "0.0.0-semantically-released",
-  "files": [
-    "index.js"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
+  "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
   "repository": "travi/eslint-config-react",
   "bugs": "https://github.com/travi/eslint-config-react/issues",
   "homepage": "https://npm.im/@travi/eslint-config-react",
-  "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
   "scripts": {
     "test": "npm-run-all --print-label --parallel lint:*",
     "lint:md": "remark . --frail",
     "lint:js": "eslint . --cache",
     "lint:sensitive": "ban",
     "lint:peer": "npm ls >/dev/null",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint:publish": "publint --strict"
+  },
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "dependencies": {
+    "@form8ion/eslint-config-react": "1.16.13"
   },
   "devDependencies": {
     "@travi/babel-preset": "3.0.101",
@@ -29,10 +34,8 @@
     "cz-conventional-changelog": "3.3.0",
     "husky": "8.0.3",
     "npm-run-all": "4.1.5",
+    "publint": "0.1.12",
     "remark-cli": "11.0.0",
     "remark-preset-lint-travi": "5.0.2"
-  },
-  "dependencies": {
-    "@form8ion/eslint-config-react": "1.16.13"
   }
 }
