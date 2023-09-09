@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@travi/babel-preset": "3.0.109",
-    "@travi/eslint-config": "4.0.3",
+    "@travi/eslint-config": "4.0.4",
     "ban-sensitive-files": "1.10.0",
     "commitlint-config-travi": "1.4.35",
     "cz-conventional-changelog": "3.3.0",
