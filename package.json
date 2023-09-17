@@ -27,7 +27,7 @@
     "@form8ion/eslint-config-react": "1.16.22"
   },
   "devDependencies": {
-    "@travi/babel-preset": "3.0.110",
+    "@travi/babel-preset": "3.0.111",
     "@travi/eslint-config": "4.0.4",
     "ban-sensitive-files": "1.10.0",
     "commitlint-config-travi": "1.4.35",
