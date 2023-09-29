@@ -30,7 +30,7 @@
     "@travi/babel-preset": "3.0.112",
     "@travi/eslint-config": "4.0.5",
     "ban-sensitive-files": "1.10.0",
-    "commitlint-config-travi": "1.4.35",
+    "commitlint-config-travi": "1.4.36",
     "cz-conventional-changelog": "3.3.0",
     "husky": "8.0.3",
     "npm-run-all2": "6.0.6",
