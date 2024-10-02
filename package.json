@@ -24,7 +24,7 @@
     "provenance": true
   },
   "dependencies": {
-    "@form8ion/eslint-config-react": "1.16.49"
+    "@form8ion/eslint-config-react": "1.16.50"
   },
   "devDependencies": {
     "@travi/babel-preset": "3.0.131",
